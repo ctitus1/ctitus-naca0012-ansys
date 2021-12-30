@@ -1,0 +1,8 @@
+/file/read-case naca0012_HD.cas.h5
+/solve/init/hyb-init
+/solve/set/time-step 0.01
+/solve/dual-time-iterate 3000 20
+/parallel timer usage
+/file/write-case naca0012_output.cas ok
+/file/write-data naca0012_output.data ok
+/exit ok
